@@ -35,6 +35,8 @@
             this.lblpass = new System.Windows.Forms.Label();
             this.btndangnhap = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -50,7 +52,7 @@
             // txtdangnhap
             // 
             this.txtdangnhap.Location = new System.Drawing.Point(279, 105);
-            this.txtdangnhap.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtdangnhap.Margin = new System.Windows.Forms.Padding(4);
             this.txtdangnhap.Name = "txtdangnhap";
             this.txtdangnhap.Size = new System.Drawing.Size(132, 22);
             this.txtdangnhap.TabIndex = 1;
@@ -58,11 +60,12 @@
             // txtpass
             // 
             this.txtpass.Location = new System.Drawing.Point(279, 149);
-            this.txtpass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtpass.Margin = new System.Windows.Forms.Padding(4);
             this.txtpass.Name = "txtpass";
             this.txtpass.PasswordChar = '*';
             this.txtpass.Size = new System.Drawing.Size(132, 22);
             this.txtpass.TabIndex = 3;
+            this.txtpass.Text = "123456";
             // 
             // lblpass
             // 
@@ -77,7 +80,7 @@
             // btndangnhap
             // 
             this.btndangnhap.Location = new System.Drawing.Point(197, 224);
-            this.btndangnhap.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btndangnhap.Margin = new System.Windows.Forms.Padding(4);
             this.btndangnhap.Name = "btndangnhap";
             this.btndangnhap.Size = new System.Drawing.Size(100, 28);
             this.btndangnhap.TabIndex = 4;
@@ -87,12 +90,28 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(311, 223);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 28);
             this.button1.TabIndex = 5;
             this.button1.Text = "Thoát";
             this.button1.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(447, 105);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(46, 17);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "label2";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(542, 105);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 22);
+            this.textBox1.TabIndex = 7;
             // 
             // Form1
             // 
@@ -100,6 +119,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(693, 375);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btndangnhap);
             this.Controls.Add(this.txtpass);
@@ -107,7 +128,7 @@
             this.Controls.Add(this.txtdangnhap);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Đăng nhập";
             this.ResumeLayout(false);
@@ -123,6 +144,8 @@
         private System.Windows.Forms.Label lblpass;
         private System.Windows.Forms.Button btndangnhap;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
